@@ -10,8 +10,8 @@ import (
 )
 
 const (
-        zoneIdent   = xxxxxx
-        recordIdent = yyyyyy
+        zoneIdent   = "xxxxxx"
+        recordIdent = "yyyyyy"
         authEmail   = "user@example.com"
         authKey     = "zzzzzz"
         recordName  = "www.example.com"
