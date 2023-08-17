@@ -22,6 +22,11 @@ const (
 
 func main() {
 
+        //Sleep for 60 seconds
+        sleepDuration := 1 * time.Minute
+        fmt.Printf("Sleeping for %v...\n", sleepDuration)
+        time.Sleep(sleepDuration)
+
         // Get public IP address
         pubIP, err := getPublicIP()
         if err != nil {
