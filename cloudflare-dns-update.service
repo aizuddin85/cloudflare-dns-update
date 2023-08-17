@@ -1,0 +1,11 @@
+[Unit]
+Description=Cloudflare Update Service
+After=network.target
+
+[Service]
+ExecStart=/opt/cloudflare/updateDns
+WorkingDirectory=/opt/cloudflare/
+Restart=always
+
+[Install]
+WantedBy=multi-user.target
